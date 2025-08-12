@@ -1,65 +1,75 @@
-# Car Rent App – Full Stack Car Rental Platform
+# car-rent-app
 
-A modern full-stack car rental application built with **React**, **Node.js**, **Express**, and **MongoDB**.  
-This app allows users to **browse, book, and manage car rentals** in real-time, while owners can **list and manage their vehicles** through an intuitive dashboard.  
-Includes **JWT authentication**, **ImageKit** integration for secure image uploads, and a **responsive, animated UI** styled with Tailwind CSS and Framer Motion.
-
----
-
-##  Features
-
--  **Secure Authentication** – JWT-based signup & login
--  **Car Management** – Add, edit, and delete car listings with images
--  **Real-Time Booking** – Check availability & confirm rentals instantly
--  **Owner Dashboard** – Manage all cars and bookings in one place
--  **Responsive UI** – Optimized for desktop, tablet, and mobile
--  **Animations** – Smooth transitions with Framer Motion
+A responsive Car Rental application built with React, Node.js, Express, and MongoDB.  
+Features include user authentication, car browsing, booking, owner dashboard, and image uploads via ImageKit.
 
 ---
 
-##  Tech Stack
+## Getting Started with Create React App
 
-**Frontend:** React, Tailwind CSS, Framer Motion  
-**Backend:** Node.js, Express.js, MongoDB  
-**Image Hosting:** ImageKit.io  
-**Authentication:** JSON Web Tokens (JWT)  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Available Scripts
+
+In the project directory, you can run:
+
+#### `npm start`
+Runs the app in the development mode.  
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.  
+You may also see any lint errors in the console.
+
+#### `npm test`
+Launches the test runner in the interactive watch mode.  
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+#### `npm run build`
+Builds the app for production to the `build` folder.  
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.  
+Your app is ready to be deployed!  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+#### `npm run eject`
+**Note: this is a one-way operation. Once you eject, you can't go back!**  
+
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.  
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project so you have full control over them.  
+All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them.
 
 ---
 
-##  Getting Started
+## Learn More
 
-### 1️ Clone the repository
-```bash
-git clone https://github.com/Atul1FB/car-rent_app.git
-cd car-rent_app
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).  
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-2️Install dependencies
-Frontend:
-cd client
-npm install
+---
 
-Backend:
-cd server
-npm install
+## Additional Info for Car Rent App
 
-3️
-Environment Variables
-Create a .env file in your backend folder and add:
+- **Frontend**: React + Tailwind CSS + Framer Motion  
+- **Backend**: Node.js + Express + MongoDB  
+- **Image Upload**: ImageKit integration  
+- **Auth**: JWT-based authentication  
+- **Features**:
+  - Search cars by location & date
+  - Book cars and manage reservations
+  - Owner dashboard for listing cars
+  - Upload and manage car images
 
-MONGO_URI=your_mongo_database_url
-JWT_SECRET=your_secret_key
-IMAGEKIT_PUBLIC_KEY=your_public_key
-IMAGEKIT_PRIVATE_KEY=your_private_key
-IMAGEKIT_URL_ENDPOINT=your_url_endpoint
+---
 
-4️ Run the app
-Frontend:
+## Deployment
 
-cd client
-npm start
+This section has moved here: [Deployment Guide](https://facebook.github.io/create-react-app/docs/deployment)
 
-Backend:
+---
 
-cd server
-npm run dev
+## Troubleshooting
+
+`npm run build` fails to minify — check this guide: [Troubleshooting](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
