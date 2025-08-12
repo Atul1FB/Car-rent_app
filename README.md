@@ -32,3 +32,34 @@ Includes **JWT authentication**, **ImageKit** integration for secure image uploa
 ```bash
 git clone https://github.com/Atul1FB/car-rent_app.git
 cd car-rent_app
+
+2️Install dependencies
+Frontend:
+cd client
+npm install
+
+Backend:
+cd server
+npm install
+
+3️
+Environment Variables
+Create a .env file in your backend folder and add:
+
+MONGO_URI=your_mongo_database_url
+JWT_SECRET=your_secret_key
+IMAGEKIT_PUBLIC_KEY=your_public_key
+IMAGEKIT_PRIVATE_KEY=your_private_key
+IMAGEKIT_URL_ENDPOINT=your_url_endpoint
+
+4️ Run the app
+Frontend:
+
+cd client
+npm start
+
+Backend:
+
+cd server
+npm run dev
+
