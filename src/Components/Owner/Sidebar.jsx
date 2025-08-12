@@ -5,7 +5,7 @@ import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
 
 const Sidebar = () => {
-  const { user, api, fetchUser } = useAppContext();
+  const { user, axios, fetchUser } = useAppContext();
   const location = useLocation();
   const token = localStorage.getItem("token");
 
@@ -21,7 +21,7 @@ const Sidebar = () => {
       const formData = new FormData();
       formData.append('image', image);
 
-      const { data } = await api.post('/api/owner/update-image', formData)
+      const { data } = await axios.post('/api/owner/update-image', formData)
                  
       console.log(data);
 
